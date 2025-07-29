@@ -31,9 +31,9 @@ conda activate TopoNet
 
 3. Set up related module
 
-Install fast BettiMatching implementation [Bett-Matching-3D(https://github.com/nstucki/Betti-Matching-3D)]
+Install fast BettiMatching implementation [[Bett-Matching-3D](https://github.com/nstucki/Betti-Matching-3D)]
 
-Install surface-distance computing library [surface-distance(https://github.com/google-deepmind/surface-distance)]
+Install surface-distance computing library [[surface-distance](https://github.com/google-deepmind/surface-distance)]
 
 ## Dataset preparation
 
