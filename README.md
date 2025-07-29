@@ -1,16 +1,16 @@
-# [MICCAI'25]TopoNet
-
 <div align=center>
-<img src="assets/overview.png" height=512 width=800>
-</div>
+<h1>Topology-Constrained Learning for Efficient Laparoscopic Liver Landmark Detection</h1>
 
-Official Implementation of MICCAI 2025 paper "Topology-Constrained Learning for Efficient Laparoscopic Liver Landmark Detection"
-
-[Ruize Cui](https://scholar.google.com/citations?hl=en&user=rAcxfuUAAAAJ), Jiaan Zhang, [Jialun Pei](https://scholar.google.com/citations?user=1lPivLsAAAAJ&hl=en), Kai Wang, [Pheng-Ann Heng](https://scholar.google.com/citations?user=OFdytjoAAAAJ&hl=en), and [Jing Qin](https://harry-qinjing.github.io/)
-
-[[Arxiv]](https://arxiv.org/abs/2507.00519); [Official Version](Coming soon)
+[**Ruize Cui**](https://scholar.google.com/citations?hl=en&user=rAcxfuUAAAAJ), **Jiaan Zhang**, [**Jialun Pei**](https://scholar.google.com/citations?user=1lPivLsAAAAJ&hl=en), **Kai Wang**, [**Pheng-Ann Heng**](https://scholar.google.com/citations?user=OFdytjoAAAAJ&hl=en), and [**Jing Qin**](https://harry-qinjing.github.io/)
 
 **Contact:** ruize.cui@connect.polyu.hk, peijialun@gmail.com
+
+<a href="https://arxiv.org/abs/2507.00519"><img src='https://img.shields.io/badge/arXiv-TopoNet-red' alt='Paper PDF'></a>
+
+Official Implementation of MICCAI 2025 paper "*Topology-Constrained Learning for Efficient Laparoscopic Liver Landmark Detection*"
+![overview](assets/overview.png)
+
+</div>
 
 ## Environment preparation
 The code is tested on python 3.9.19, pytorch 2.1.2, and CUDA 12.1, change the versions below to your desired ones.
@@ -55,6 +55,8 @@ VAL_PATH = os.path.join(DATASET_ROOT, 'Val/')
 
 TopoNet weights: [Google Drive](https://drive.google.com/file/d/1dfvMlagKPOO3P3QswYns8JO5tLTj798r/view?usp=sharing)
 
+Depth Anything V2 with vitb pre-trained weights: [Depth-Anything-V2](https://github.com/DepthAnything/Depth-Anything-V2)
+
 ## Train
 
 ```shell
@@ -76,10 +78,10 @@ python test.py --model_path {PATH_TO_THE_MODEL_WEIGHTS} --data_path {PATH_TO_DAT
 ## Acknowledgement
 This work is based on:
 
-- Depth Anything V2(https://github.com/DepthAnything/Depth-Anything-V2)
-- Betti Matching(https://github.com/nstucki/Betti-matching); Betti Matching 3D(https://github.com/nstucki/Betti-Matching-3D)
-- clDice(https://github.com/jocpae/clDice)
-- Dynamic Snake Convolution(https://github.com/YaoleiQi/DSCNet)
+- [Depth Anything V2](https://github.com/DepthAnything/Depth-Anything-V2)
+- [Betti Matching](https://github.com/nstucki/Betti-matching); [Betti Matching 3D](https://github.com/nstucki/Betti-Matching-3D)
+- [clDice](https://github.com/jocpae/clDice)
+- [Dynamic Snake Convolution](https://github.com/YaoleiQi/DSCNet)
 
 Thanks them for their great work!
 
