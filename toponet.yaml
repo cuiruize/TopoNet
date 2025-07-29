@@ -1,4 +1,4 @@
-name: topology
+name: TopoNet
 channels:
   - pytorch
   - nvidia
