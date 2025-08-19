@@ -1,5 +1,5 @@
 <div align=center>
-<h1>[MICCAI'25]Topology-Constrained Learning for Efficient Laparoscopic Liver Landmark Detection</h1>
+<h1>[MICCAI'25]TopoNet: Topology-Constrained Learning for Efficient Laparoscopic Liver Landmark Detection</h1>
 
 [**Ruize Cui**](https://scholar.google.com/citations?hl=en&user=rAcxfuUAAAAJ), **Jiaan Zhang**, [**Jialun Pei**](https://scholar.google.com/citations?user=1lPivLsAAAAJ&hl=en), **Kai Wang**, [**Pheng-Ann Heng**](https://scholar.google.com/citations?user=OFdytjoAAAAJ&hl=en), and [**Jing Qin**](https://harry-qinjing.github.io/)
 
