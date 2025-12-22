@@ -90,10 +90,12 @@ Thanks them for their great work!
 If this helps you, please cite this work:
 
 ```bibtex
-@article{cui2025topology,
+@inproceedings{cui2025topology,
   title={Topology-Constrained Learning for Efficient Laparoscopic Liver Landmark Detection},
   author={Cui, Ruize and Zhang, Jiaan and Pei, Jialun and Wang, Kai and Heng, Pheng-Ann and Qin, Jing},
-  journal={arXiv preprint arXiv:2507.00519},
-  year={2025}
+  booktitle={MICCAI},
+  pages={585--594},
+  year={2025},
+  organization={Springer}
 }
 ```
