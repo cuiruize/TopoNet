@@ -7,7 +7,7 @@
 
 <a href="https://arxiv.org/abs/2507.00519"><img src='https://img.shields.io/badge/arXiv-TopoNet-red' alt='Paper PDF'></a> <a href="https://papers.miccai.org/miccai-2025/paper/0755_paper.pdf"><img src='https://img.shields.io/badge/MICCAI-TopoNet-blue' alt='Paper PDF'></a>
 
-Official Implementation of MICCAI 2025 paper "*Topology-Constrained Learning for Efficient Laparoscopic Liver Landmark Detection*"
+Official Implementation of MICCAI 2025 paper "[*Topology-Constrained Learning for Efficient Laparoscopic Liver Landmark Detection*](https://link.springer.com/chapter/10.1007/978-3-032-05127-1_56)"
 ![overview](assets/overview.png)
 
 </div>
